@@ -1,9 +1,51 @@
 .jumbotron{
+    position: relative;
     height: 100vh;
-    background: url('https://images.unsplash.com/photo-1495837174058-628aafc7d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat center center fixed; 
+    background: url('https://images.unsplash.com/photo-1589822722100-ddd20673cb81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=762&q=80') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     
-    };
+    }
+    h1{
+        text-align: center;
+        font-family: fantasy;
+        color: paleturquoise;
+    }
+    .card {
+        background-color:rgb(241, 146, 238) ;
+        position: absolute;
+        border-color: black;
+        font-size: small;
+        }
+    .cardimage{
+        height: 7cm;
+    }
+
+    .card1 {
+        top: 5cm;
+        left: 0;
+      }
+      
+      .card2 {
+        top: 5cm;
+        left: 10cm;
+      }
+      
+      .card3 {
+        top: 5cm;
+        right: 10cm;
+      }
+      
+      .card4 {
+        top: 5cm;
+        right: 0;
+      }
+  
+      p{
+          background-color: pink;
+      }
+      ul{
+          background-color:plum;
+      }
