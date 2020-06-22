@@ -74,8 +74,49 @@
     </div>
 
 <script type="text/javascript">
-var blackPink = alert("Welcome to Blackpink's Fan page")
+var welcome = alert("Welcome to Blackpink's Fan page")
 
+var favorite = prompt("Which BlackPink member do you think is the best?")
+var member = confirm(favorite)
+
+var lalisaPos = ("Main Dancer, Lead Rapper");
+var lalisaAge = (23);
+var best = true;
+
+if (lalisa) {
+    alert( lalisaPos + " " + lalisaAge);
+}
+else {
+    alert("You don't have the greatest of tastes in Kpop Idol's and you don't get my information...");
+}
+if (best) {
+    alert ("My favorite member is Lalisa");
+}
+else{
+    alert ("Lalisa is not my your favorite member")
+}
+if (lalisaAge !== 17){
+    alert("Lalisa is not 17 years old");
+}
+if ( lalisaAge === 23) {
+    alert ("Correct she is 23");
+}
+else if (lalisaAge < 24){
+    alert ("Lalisa is younger than that.");
+}
+else if (lalisaAge > 22) {
+    alert ("Lalisa is older than that");
+}
+ // document.write() overwrites the entire page. We don't normally use this, but we will today for simplicity
+ document.write("Welcome to our page " + member);
+
+var lalisaAge = prompt("How old is Lalisa?");
+
+// Won't work as expected
+alert(lalisaAge + 2);
+
+// Works as expected
+alert(parseInt(lalisaAge) + 2);
 
 </script>
 
